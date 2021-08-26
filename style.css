@@ -1,0 +1,43 @@
+button.btn{
+  border-radius: 5px;
+  background-color: ghostwhite;
+  color: black;
+  border: 2px solid grey;
+
+}
+button.btn:hover{
+    background-color: rgb(212, 212, 212);
+    border: 2px solid gray;
+    color: black;
+}
+body{
+    font-size: 1.4rem;
+    font-family: 'Baloo 2', cursive;
+}
+nav{
+    border-radius: 8px;
+    border:2px solid rgb(94, 93, 93);
+}
+body{
+    background: url('bg1.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+.form-text{
+    color: black;
+}
+.bg-dark {
+    --bs-bg-opacity: 0.4;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+textarea.form-control {
+    width: 39%;
+    height: 144px;
+}
+
+.form-control {
+    width: 39%;
+    transition: none;
+}
